@@ -1,0 +1,46 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #b75899;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+.modal{
+    background-color: rgb(255, 255, 255,0.2);
+}
+.modal-header{
+    background: rgba(255, 234, 247, 0.4);
+    color: #b75899;
+    font-family:'Cormorant', serif;
+
+}
+.button{
+    color: #b75899;
+    font-family:'Cormorant', serif;
+    border: none;
+    background: rgba(255, 234, 247, 0.4);
+}  
+
+.modal-title{
+        font-size: 45px;
+    font-weight: 900;
+}
+.modal-body{
+    background: rgba(255, 234, 247, 0.4);
+    color: #b75899;
+}
+form .btn{
+    background: #b75899;
+     color: white;
+    font-size: 20px;
+font-family: 'Montserrat', sans-serif;}
+
+form input{
+    background:rgb(183, 88, 153,0.6) ;
+}
+.form-label{
+    font-family: 'Crimson Text', serif ;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.btn-close{color: #b75899;
+background-color: #b75899;}
