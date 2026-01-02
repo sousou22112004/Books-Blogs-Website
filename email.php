@@ -34,12 +34,12 @@ if(isset($_POST['send'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'sousaitabdelouahid@gmail.com';
-        $mail->Password = 'qpkoeqecysbuwehs';
+        $mail->Username = 'your email';
+        $mail->Password = 'app password';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('sousaitabdelouahid@gmail.com', 'Your Company');
+        $mail->setFrom('your email', 'Your Company');
         $mail->addAddress($email, $name);
 
         $mail->Subject = 'Your PDF Download Link';
